@@ -1,0 +1,50 @@
+/* shared code starts*/
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* shared code ends */
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.banner {
+    display: flex;
+}
+
+.banner img {
+    width: 584px;
+    height: 676px;
+}
+.header {
+    background-color: pink;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
